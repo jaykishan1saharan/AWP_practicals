@@ -1,0 +1,57 @@
+/* Basic Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid gray;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid blue;
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: darkblue;
+    margin: 5px;
+}
+
+h2 {
+    color: blue;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: black;
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+section {
+    margin-top: 20px;
+}
+
+strong {
+    color: black;
+}
