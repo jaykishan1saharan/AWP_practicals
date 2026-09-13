@@ -1,0 +1,11 @@
+git init
+
+git add .
+
+git commit -m "write your commit message"
+
+git branch -M main
+
+git remote add origin "GitHub repo url"
+
+git push -u origin main
