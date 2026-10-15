@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AngularJS Welcome Message</title>
+
+    <!-- AngularJS Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+
+<body ng-app="myApp">
+
+    <div ng-controller="myController">
+        <h2>AngularJS Two-Way Data Binding</h2>
+
+        <label>Enter Your Name:</label>
+        <input type="text" ng-model="name">
+
+        <h3>Welcome, {{ name }}!</h3>
+    </div>
+
+    <script>
+        // Create AngularJS module
+        var app = angular.module("myApp", []);
+
+        // Create controller
+        app.controller("myController", function($scope) {
+            // Initial value
+            $scope.name = " ";
+        });
+    </script>
+
+</body>
+</html>

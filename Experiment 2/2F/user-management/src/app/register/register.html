@@ -1,0 +1,24 @@
+<h2>User Registration</h2>
+
+<form (ngSubmit)="Register()">
+  Name:
+  <input type="text" [(ngModel)]="username" name="name" required>
+  <br><br>
+
+  Email:
+  <input type="email" [(ngModel)]="email" name="email" required>
+  <br><br>
+
+  Password:
+  <input type="password" [(ngModel)]="password" name="password" required>
+  <br><br>
+
+  Mobile:
+  <input type="text" [(ngModel)]="mobile" name="mobile" required>
+  <br><br>
+
+  <button type="submit">Register</button>
+</form>
+
+<br>
+<a routerLink="/login">Already Registered? Login</a>
